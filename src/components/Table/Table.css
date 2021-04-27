@@ -1,0 +1,89 @@
+.btn-wrap {
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+
+.info,
+.question {
+  width: 50%;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  outline: none;
+}
+
+.info {
+  background: rgb(194, 17, 17);
+  border-top-left-radius: 7px;
+  border-bottom-left-radius: 7px;
+  color: #fff;
+  border: 2px solid rgb(194, 17, 17);
+}
+
+.question {
+  border-top-right-radius: 7px;
+  border-bottom-right-radius: 7px;
+  color: rgb(0, 0, 0);
+  border: 2px solid rgb(194, 17, 17);
+}
+
+.table {
+  margin: auto;
+  width: 100%;
+  border-collapse: collapse;
+  border-left: 2px solid rgb(194, 17, 17);
+  border-right: 2px solid rgb(194, 17, 17);
+  border-bottom: 2px solid rgb(194, 17, 17);
+}
+
+.table caption {
+  background: rgb(194, 17, 17);
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  padding: 10px;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.3);
+  color: white;
+  font-style: normal;
+  font-size: 26px;
+  text-align: center;
+  margin: 0;
+}
+
+.table td,
+.table th {
+  padding: 10px;
+}
+
+.table th {
+  text-align: left;
+  font-size: 18px;
+}
+
+.table tr:nth-child(2n) {
+  background: #e5e5e5;
+}
+
+.table td:last-of-type {
+  text-align: center;
+}
+
+.button-edit {
+  background: rgb(68, 65, 65);
+}
+
+.button-remove {
+  background: rgb(194, 17, 17);
+}
+
+.button-edit,
+.button-remove {
+  margin-left: auto;
+  margin-right: 10px;
+  width: 30px;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  padding: 4px 8px;
+  font-size: 14px;
+  cursor: pointer;
+}

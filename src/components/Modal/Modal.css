@@ -1,0 +1,66 @@
+.modal-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  width: 300px;
+  background: #fff;
+  padding: 15px;
+  position: relative;
+}
+
+.modal label {
+  display: block;
+  font-weight: 700;
+}
+
+.modal input {
+  margin-bottom: 10px;
+}
+
+.modal .close {
+  width: 20px;
+  height: 20px;
+  background: #000;
+  color: #fff;
+  font-size: 20px;
+  line-height: 20px;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0;
+  cursor: pointer;
+}
+
+.modal .save {
+  outline: none;
+  font-size: 14px;
+  color: #f44336;
+  padding: 3px 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  border: 1px solid #f44336;
+  background-color: transparent;
+}
+
+.save:disabled,
+.save[disabled] {
+  border: 1px solid #999;
+  background-color: #ccc;
+  color: #666;
+}
+
+.is-danger {
+  color: red;
+}

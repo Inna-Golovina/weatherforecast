@@ -1,0 +1,9 @@
+* {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.wrapper {
+  margin: auto;
+  max-width: 1000px;
+}
